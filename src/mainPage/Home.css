@@ -1,0 +1,14 @@
+.Body {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 80px;
+}
+
+.secondary-body {
+  flex: 0 0 400px;
+  margin: 20px;
+  border: 1px solid black;
+}
